@@ -41,6 +41,11 @@ int testEigen()
 
 int main()
 {
+	//from g2o project create_sphere
+	//VertexSE3* prev = vertices[i-1];
+    //VertexSE3* cur  = vertices[i];
+    //Eigen::Isometry3d t = prev->estimate().inverse() * cur->estimate();
+	//means  T_01 = T_0.inv * T_1; T_1 = T_0*T_01
 	testEigen();
 	return 0;
 }
